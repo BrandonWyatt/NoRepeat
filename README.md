@@ -1,7 +1,7 @@
 ## NoRepeat
 
 # Running Requirements
-This project has a few requirements; it has been written using Python 2.7.14, and as such, will not run in Python 3. It may run in other versions of Python 2, but these are untested. The alert system is configured for a Windows computer, and is tested on Windows 7 and Windows 10. It is likely to work on Windows 8, or 8.1, as well, but will produce unknown output on other operating systems when a repeat song is discovered (most likely, crash)
+This project has a few requirements; it has been written using Python 3. It may run in versions of Python 2, but these are untested. The alert system is configured for a Windows computer, and is tested on Windows 7 and Windows 10. It is likely to work on Windows 8, or 8.1, as well, but will produce unknown output on other operating systems when a repeat song is discovered (most likely, crash). A planned update will provide functionality on Linux based machines.
 
 The following packages may also be required to be installed:
   - pypiwin32
@@ -9,7 +9,7 @@ The following packages may also be required to be installed:
   - urllib3
 
 # How To
-To get started, simply run "*norepeat.py*" in a terminal, or your preferred alternative. The program will list songs as they begin to play. It will only detect songs while running, however, it it terminates for any reason, the database will persist. This will only be deleted if the script is run on a different date.
+To get started, simply run "*norepeat.py*" in a terminal, or your preferred alternative. The program will list songs as they begin to play. It will only detect songs while running, however, if it terminates for any reason, the database will persist. This will only be deleted if the script is run on a different date.
 
 There are 3 helper scripts included; *addSong.py*, *getSongList.py*, and *getMultiSongList.py*.
 
